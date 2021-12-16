@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="926" viewBox="0 0 428 926">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-iPhone_12_Pro_Max_1);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #707070;
+      }
+
+      .cls-4 {
+        font-size: 23px;
+      }
+
+      .cls-4, .cls-5, .cls-6 {
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-5 {
+        font-size: 14px;
+      }
+
+      .cls-6 {
+        font-size: 11px;
+      }
+    </style>
+    <clipPath id="clip-iPhone_12_Pro_Max_1">
+      <rect width="428" height="926"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_12_Pro_Max_1" data-name="iPhone 12 Pro Max – 1" class="cls-1">
+    <rect class="cls-2" width="428" height="926"/>
+    <g id="Groupe_7" data-name="Groupe 7">
+      <g id="Groupe_1" data-name="Groupe 1" transform="translate(10 12)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="132" height="59" rx="21"/>
+        <path id="Rectangle_1_-_Contour" data-name="Rectangle 1 - Contour" class="cls-3" d="M22.012,1.639c-5.553,0-10.774,2.9-14.7,8.161A33.043,33.043,0,0,0,1.223,29.5a33.043,33.043,0,0,0,6.089,19.7c3.927,5.263,9.147,8.161,14.7,8.161h88.05c5.553,0,10.774-2.9,14.7-8.161a33.043,33.043,0,0,0,6.089-19.7,33.043,33.043,0,0,0-6.089-19.7c-3.927-5.263-9.147-8.161-14.7-8.161H22.012m0-1.639h88.05c12.157,0,22.012,13.209,22.012,29.5s-9.855,29.5-22.012,29.5H22.012C9.855,59.006,0,45.8,0,29.5S9.855,0,22.012,0Z"/>
+      </g>
+      <text id="Logo" class="cls-4" transform="translate(55 45)"><tspan x="0" y="0">Logo</tspan></text>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-2" cx="35" cy="29.5" rx="35" ry="29.5" transform="translate(350 12)"/>
+      <path id="Ellipse_12_-_Contour" data-name="Ellipse 12 - Contour" class="cls-3" d="M35,1A39.454,39.454,0,0,0,21.712,3.26,34.848,34.848,0,0,0,10.9,9.4a28.692,28.692,0,0,0-7.251,9.061,24.345,24.345,0,0,0,0,22.068A28.692,28.692,0,0,0,10.9,49.6,34.848,34.848,0,0,0,21.712,55.74a40.19,40.19,0,0,0,26.576,0A34.848,34.848,0,0,0,59.1,49.6a28.692,28.692,0,0,0,7.251-9.061,24.345,24.345,0,0,0,0-22.068A28.692,28.692,0,0,0,59.1,9.4,34.848,34.848,0,0,0,48.288,3.26,39.454,39.454,0,0,0,35,1m0-1C54.33,0,70,13.208,70,29.5S54.33,59,35,59,0,45.792,0,29.5,15.67,0,35,0Z" transform="translate(350 12)"/>
+      <text id="LOGIN" class="cls-5" transform="translate(364 47)"><tspan x="0" y="0">LOGIN</tspan></text>
+      <g id="Groupe_2" data-name="Groupe 2" transform="translate(55 83)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-2" cx="66" cy="29.5" rx="66" ry="29.5"/>
+        <path id="Ellipse_1_-_Contour" data-name="Ellipse 1 - Contour" class="cls-3" d="M66,1A137.734,137.734,0,0,0,40.5,3.3,93.8,93.8,0,0,0,19.739,9.553C13.8,12.209,9.146,15.288,5.913,18.7,2.653,22.15,1,25.782,1,29.5s1.653,7.35,4.913,10.8c3.233,3.417,7.885,6.5,13.826,9.151A93.8,93.8,0,0,0,40.5,55.7,137.734,137.734,0,0,0,66,58a137.735,137.735,0,0,0,25.5-2.3,93.8,93.8,0,0,0,20.757-6.252c5.941-2.655,10.593-5.734,13.826-9.151C129.347,36.85,131,33.218,131,29.5s-1.653-7.35-4.913-10.8c-3.233-3.417-7.885-6.5-13.826-9.151A93.8,93.8,0,0,0,91.5,3.3,137.735,137.735,0,0,0,66,1m0-1c36.451,0,66,13.208,66,29.5S102.451,59,66,59,0,45.792,0,29.5,29.549,0,66,0Z"/>
+        <text id="_ACCUEIL" data-name="  ACCUEIL" class="cls-5" transform="translate(28 36)"><tspan x="0" y="0" xml:space="preserve">  ACCUEIL</tspan></text>
+        <text id="HARD" class="cls-5" transform="translate(204 35)"><tspan x="0" y="0">HARD</tspan></text>
+        <ellipse id="Ellipse_14" data-name="Ellipse 14" class="cls-2" cx="66" cy="29.5" rx="66" ry="29.5" transform="translate(163 1)"/>
+        <path id="Ellipse_14_-_Contour" data-name="Ellipse 14 - Contour" class="cls-3" d="M66,1A137.734,137.734,0,0,0,40.5,3.3,93.8,93.8,0,0,0,19.739,9.553C13.8,12.209,9.146,15.288,5.913,18.7,2.653,22.15,1,25.782,1,29.5s1.653,7.35,4.913,10.8c3.233,3.417,7.885,6.5,13.826,9.151A93.8,93.8,0,0,0,40.5,55.7,137.734,137.734,0,0,0,66,58a137.735,137.735,0,0,0,25.5-2.3,93.8,93.8,0,0,0,20.757-6.252c5.941-2.655,10.593-5.734,13.826-9.151C129.347,36.85,131,33.218,131,29.5s-1.653-7.35-4.913-10.8c-3.233-3.417-7.885-6.5-13.826-9.151A93.8,93.8,0,0,0,91.5,3.3,137.735,137.735,0,0,0,66,1m0-1c36.451,0,66,13.208,66,29.5S102.451,59,66,59,0,45.792,0,29.5,29.549,0,66,0Z" transform="translate(163 1)"/>
+        <text id="_ACTUS" data-name="    ACTUS" class="cls-5" transform="translate(190 36)"><tspan x="0" y="0" xml:space="preserve">    ACTUS</tspan></text>
+      </g>
+      <g id="Groupe_3" data-name="Groupe 3" transform="translate(30 155.537)">
+        <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="369" height="273" transform="translate(0 0.463)"/>
+        <path id="Rectangle_2_-_Contour" data-name="Rectangle 2 - Contour" class="cls-3" d="M1,1V272H368V1H1M0,0H369V273H0Z"/>
+        <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-2" width="369" height="62" transform="translate(0 211.463)"/>
+        <path id="Rectangle_6_-_Contour" data-name="Rectangle 6 - Contour" class="cls-3" d="M1,1V61H368V1H1M0,0H369V62H0Z" transform="translate(0 211)"/>
+        <text id="TITRE_Date_publication_Nom_Auteur_100_carcatères_de_l_article" data-name="TITRE 
+Date publication
+Nom Auteur
+100 carcatères de l’article" class="cls-6" transform="translate(135 228.463)"><tspan x="0" y="0">TITRE </tspan><tspan x="0" y="12">Date publication</tspan><tspan x="0" y="24">Nom Auteur</tspan><tspan x="0" y="36">100 carcatères de l’article</tspan></text>
+        <text id="IMAGE_ou_VIDEO" data-name="IMAGE ou VIDEO" class="cls-5" transform="translate(120 109.463)"><tspan x="0" y="0">IMAGE ou VIDEO</tspan></text>
+      </g>
+      <rect id="Rectangle_3" data-name="Rectangle 3" class="cls-2" width="369" height="138" transform="translate(30 484)"/>
+      <path id="Rectangle_3_-_Contour" data-name="Rectangle 3 - Contour" class="cls-3" d="M1,1V137H368V1H1M0,0H369V138H0Z" transform="translate(30 483.859)"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-2" width="185" height="138" transform="translate(214 484)"/>
+      <path id="Rectangle_7_-_Contour" data-name="Rectangle 7 - Contour" class="cls-3" d="M1,1V137H184V1H1M0,0H185V138H0Z" transform="translate(214 483.859)"/>
+      <text id="IMAGE" class="cls-5" transform="translate(99 558)"><tspan x="0" y="0">IMAGE</tspan></text>
+      <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="374" height="138" transform="translate(30 677)"/>
+      <path id="Rectangle_4_-_Contour" data-name="Rectangle 4 - Contour" class="cls-3" d="M1,1V137H373V1H1M0,0H374V138H0Z" transform="translate(30 677.048)"/>
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-2" width="190" height="138" transform="translate(214 677)"/>
+      <path id="Rectangle_8_-_Contour" data-name="Rectangle 8 - Contour" class="cls-3" d="M1,1V137H189V1H1M0,0H190V138H0Z" transform="translate(214 677.048)"/>
+      <text id="IMAGE-2" data-name="IMAGE" class="cls-5" transform="translate(99 751)"><tspan x="0" y="0">IMAGE</tspan></text>
+      <g id="Groupe_6" data-name="Groupe 6" transform="translate(30 866.048)">
+        <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-2" width="374" height="44" transform="translate(0 -0.048)"/>
+        <path id="Rectangle_5_-_Contour" data-name="Rectangle 5 - Contour" class="cls-3" d="M1,1V43H373V1H1M0,0H374V44H0Z"/>
+        <text id="CREDITS_DU_SITE_COPYRIGHT" data-name="CREDITS DU SITE + COPYRIGHT" class="cls-5" transform="translate(82 26.952)"><tspan x="0" y="0">CREDITS DU SITE + COPYRIGHT</tspan></text>
+      </g>
+      <text id="TITRE_Date_publication_Nom_Auteur_10_caractères_de_l_article" data-name="TITRE 
+Date publication
+Nom Auteur
+10 caractères de l’article" class="cls-6" transform="translate(258 730)"><tspan x="0" y="0">TITRE </tspan><tspan x="0" y="12">Date publication</tspan><tspan x="0" y="24">Nom Auteur</tspan><tspan x="0" y="36">10 caractères de l’article</tspan></text>
+      <text id="TITRE_Date_publication_Nom_Auteur_100_caractères_de_l_article" data-name="TITRE 
+Date publication
+Nom Auteur
+100 caractères de l’article" class="cls-6" transform="translate(258 547)"><tspan x="0" y="0">TITRE </tspan><tspan x="0" y="12">Date publication</tspan><tspan x="0" y="24">Nom Auteur</tspan><tspan x="0" y="36">100 caractères de l’article</tspan></text>
+    </g>
+  </g>
+</svg>

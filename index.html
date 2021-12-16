@@ -1,0 +1,325 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CF2M - Projet NewsLetter - Dec 2021</title>
+<!--Favicon-->
+  <link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />   
+<!--Favicon-->  
+<link href="decor/styles/style.css">
+    
+<!--Nous placerons du JavaScript ici-->
+    <script> </script>
+<!--   /* Returns viewport's width */
+function getViewportWidth() {
+
+    if (window.innerWidth) {
+  /* Returns Window's width excluding toolbars/scrollbars */
+        return window.innerWidth;
+    } else if (document.body && document.body.offsetWidth) {
+  /* Returns viewable width of document, 
+  including padding, border and scrollbar, but not the margin */
+        return document.body.offsetWidth;
+    } else {
+        return 0;
+    }
+}
+
+/* Returns window's height */
+function getViewportHeight() {
+
+    if (window.innerHeight) {
+  /* Returns Window's height excluding toolbars/scrollbars */
+        return window.innerHeight;
+    } else if (document.body && document.body.offsetHeight) {
+  /* Returns viewable height of document, 
+  including padding, border and scrollbar, but not the margin */
+        return document.body.offsetHeight;
+    } else {
+        return 0;
+    }
+} 
+
+/* Returns screen's total height & width */
+function getScreenResolution() {
+ return {
+  height: (screen.height)? screen.height : undefined,
+  width: (screen.width)? screen.width : undefined
+ };
+}
+
+/* Returns coordinates of the mouse pointer relative to the current window, for the given mouse event.
+   Example, onclick="coords = getMouseCoordinates(event)" or onmousemove="coords = getMouseCoordinates(event)"
+*/
+function getMouseCoordinates(event) {
+    var x = (event.clientX)? event.clientX : undefined;
+    var y = (event.clientY)? event.clientY : undefined;
+ 
+ return { x: x, y: y };
+} -->
+    <script></script>
+    
+    
+
+</head>
+    
+
+
+<body>
+<div id="mainwrapper">
+  <header> 
+    <!--**************************************************************************
+    Le header commence ici. 
+
+    ****************************************************************************-->
+      
+    <!-- Logo ci-dessous -->
+    <div id="logo">
+        <img class="img-responsive" src="logoImage.png" alt="Logo">  
+    <!-- Logo ci-dessus -->
+     
+        
+        
+        
+    <!-- Menu ci-dessous -->    
+    </div>
+    <nav>
+        <a href="index.html" title="Link">Accueil</a> 
+        <a href="pages/blog.html" title="Link">Blog</a>
+        <a href="pages/contact.html" title="Link">Contact</a>
+        <a href="pages/admin.html" title="Link">Admin</a> </nav>
+  </header>
+  <div id="content">
+    <div class="notOnDesktop"> 
+      <!-- This search box is displayed only in mobile and tablet laouts and not in desktop layouts -->
+      <input type="text" placeholder="Search">
+    </div>
+    <!-- Menu ci-dessus -->  
+      
+      
+      
+    <!--************************************************************************
+    Le contenu principal du blog commence ici
+    ****************************************************************************-->
+      <section id="mainContent"> 
+      <h1><!-- Blog title -->Projet NewsLetter</h1>
+      <h2><!-- Tagline -->TITRE ARTICLE A LA UNE (Article 1)</h2>
+    
+<!--Carroussel introduit ci-dessous -->  
+
+      
+ <!--/** Dependencies *
+ this function requires the following snippets:
+ JavaScript/images/switchImage
+
+ BODY Example:
+ <body onLoad="mySlideShow1.play(); mySlideShow2.play();">
+ <img src="originalImage1.gif" name="slide1">
+ <img src="originalImage2.gif" name="slide2">
+
+ SCRIPT Example:
+ var mySlideList1 = ['image1.gif', 'image2.gif', 'image3.gif'];
+ var mySlideShow1 = new SlideShow(mySlideList1, 'slide1', 3000, "mySlideShow1");
+ var mySlideList2 = ['image4.gif', 'image5.gif', 'image6.gif'];
+ var mySlideShow2 = new SlideShow(mySlideList2, 'slide2', 1000, "mySlideShow2");
+*/
+
+function SlideShow(slideList, image, speed, name) {
+
+    this.slideList = slideList;
+    this.image = image;
+    this.speed = speed;
+    this.name = name;
+    this.current = 0;
+    this.timer = 0;
+
+}
+
+SlideShow.prototype.play = SlideShow_play;
+
+function SlideShow_play() {
+
+ if (this.current++ === this.slideList.length - 1) {
+  this.current = 0;
+ }
+ 
+ switchImage(this.image, this.slideList[this.current]);
+ clearTimeout(this.timer);
+ this.timer = setTimeout(this.name + '.play()', this.speed);
+}
+
+          
+          
+          <!--div class="media">
+    <div class="media-left">
+        <a href="#">
+            <img class="img-responsive" src="decor/images/300x250.gif"  alt="...">
+        </a>
+  </div>
+    <div class="media-body">
+        <h3 class="media-heading">Sous titre article</h3>
+        <p>Les cent preniers caractères de l'article. Les cent preniers caractères de l'article. Les cent preniers caractères de l'article.Les cent preniers caractères de l'article.</p>
+    </div>
+ </div--> 
+<!--Carroussel introduit ci-dessus -->   
+      <aside id="authorInfo1"> 
+        <!-- Les informations à propos de l'auteur sont placées ici -->
+        <h3>Nom Auteur 1</h3>
+        <p>Date et heure de publication</p>
+      </aside>
+
+    </section>
+      
+<!--PLACER DES IMAGES DANS UNE FORME *******-->
+    <!-- Clip image with an oval -->
+<img src="..." alt="..." class="img-rounded">
+
+<!-- Clip image with a circle -->
+<img src="..." alt="..." class="img-circle">
+
+<!-- Clip image with a thumbnail -->
+<img src="..." alt="..." class="img-thumbnail">
+      
+<!--*****PLACER DES IMAGES DANS UNE FORME ******-->
+
+      
+    
+    <!--************************************************************************
+    Le deuxième article du blog commence ici
+    ****************************************************************************-->
+      <section id="secondContent"> 
+      <h1><!-- Blog title -->Post Title</h1>
+      <h3><!-- Tagline -->TITRE DEUXIEME ARTICLE ACCUEIL</h3>
+      <div id="bannerImage2"><img class="img-responsive" src="decor/images/SliderLayerImage.png" alt=""/></div>
+      <p>Les cent preniers caractères de l'article. Les cent preniers caractères de l'article. Les cent preniers caractères de l'article.Les cent preniers caractères de l'article.</p>
+      
+      <aside id="authorInfo2"> 
+        <!-- Les informations à propos de l'auteur sont placées ici -->
+        <h2>Nom Auteur 2</h2>
+        <p>Date et heure de publication</p>
+      </aside>
+    </section>
+    
+    <!--PLACER DES IMAGES DANS UNE FORME *******-->
+    <!-- Clip image with an oval -->
+<img src="..." alt="..." class="img-rounded">
+
+<!-- Clip image with a circle -->
+<img src="..." alt="..." class="img-circle">
+
+<!-- Clip image with a thumbnail -->
+<img src="..." alt="..." class="img-thumbnail">
+      
+<!--*****PLACER DES IMAGES DANS UNE FORME ******-->
+
+      
+    
+    <!--************************************************************************
+    Le troisième article du blog commence ici
+    ****************************************************************************-->
+      <section id="thirdContent"> 
+      <h1><!-- Blog title -->Post Title</h1>
+      <h3><!-- Tagline -->TITRE TROISIEME ARTICLE ACCUEIL</h3>
+      <div id="bannerImage3"><img class="img-responsive" src="decor/images/SliderLayerImage.png" alt=""/></div>
+      <p>Les cent preniers caractères de l'article. Les cent preniers caractères de l'article. Les cent preniers caractères de l'article.Les cent preniers caractères de l'article.</p>
+      
+      <aside id="authorInfo3"> 
+        <!-- Les informations à propos de l'auteur sont placées ici -->
+        <h2>Nom Auteur 3</h2>
+        <p>Date et heure de publication</p>
+      </aside>
+    </section>
+      
+      
+    <!--PLACER DES IMAGES DANS UNE FORME *******-->
+    <!-- Clip image with an oval -->
+<img src="..." alt="..." class="img-rounded">
+
+<!-- Clip image with a circle -->
+<img src="..." alt="..." class="img-circle">
+
+<!-- Clip image with a thumbnail -->
+<img src="..." alt="..." class="img-thumbnail">
+      
+<!--*****PLACER DES IMAGES DANS UNE FORME ******-->
+
+      
+      
+      
+     <!--CHANGER LA TAILLE DE L IMAGE LORSQU ON CLIQUE DESSUS
+    
+    --JAVASCRIPT
+    $(function(){
+    var myImage = document.querySelector('img');
+    myImage.onclick = function() {
+    var mySrc = myImage.getAttribute('src');
+    if(mySrc === 'http://static.tumblr.com/1bd1b615e6da70dd71dc84fd2f47c80d/zpmncfu/oxNng9hfv/tumblr_static_95p88l86si88ks4w4wws04wk8.png') {
+    myImage.setAttribute ('src','https://cdn-insomniac.s3.amazonaws.com/emoji_sexface.png');
+    } else {
+    myImage.setAttribute ('src','http://static.tumblr.com/1bd1b615e6da70dd71dc84fd2f47c80d/zpmncfu/oxNng9hfv/tumblr_static_95p88l86si88ks4w4wws04wk8.png');
+    }
+    };
+    });
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <img src="http://static.tumblr.com/1bd1b615e6da70dd71dc84fd2f47c80d/zpmncfu/oxNng9hfv/tumblr_static_95p88l86si88ks4w4wws04wk8.png" alt="Smiley face" height="42" width="42">
+    *****CHANGER LA TAILLE DE L IMAGE LORSQU ON CLIQUE DESSUS-->
+      
+      
+      
+      
+      
+      
+      
+    <!--COMPTEUR DE MOTS EN JAVA SCRIPT *****
+
+  <a href="javascript:(function(){var t;if (window.getSelection) t = window.getSelection();else if (document.selection) t = document.selection.createRange();if (t.text != undefined) t = t.text;if(!t || t == &quot;&quot;){ a = document.getElementsByTagName(&quot;textarea&quot;); for(i=0; i<a.length; i++) {  if(a[i].selectionStart != undefined &amp;&amp; a[i].selectionStart != a[i].selectionEnd)  {    t = a[i].value.substring(a[i].selectionStart, a[i].selectionEnd);    break;  } }}if(!t || t == &quot;&quot;)alert(&quot;please select some text&quot;);else alert(&quot;word count: &quot; + t.toString().match(/(\S+)/g).length);})()">word count</a>
+
+Select some text and click on word count
+
+****COMPTEUR DE MOTS EN JAVA SCRIPT-->
+      
+   <!--************************************************************************
+    Le footer commence ici
+    ****************************************************************************-->
+    <footer>
+        
+        <!--PHP pour récupérer année pour le footer->
+        
+        <?php 
+/* 
+  No argument required for current year.
+  Otherwise, pass start year as a 4-digit value.
+*/
+function auto_copyright($startYear = null) {
+	if (!is_numeric($startYear) || intval($startYear) >= date('Y')) {
+		echo "&copy; " . date('Y'); // display current year if $startYear is same or greater than this year
+	} else {
+		// Display range of years. Replace date('Y') with date('y') to display range of years in YYYY-YY format.
+		echo "&copy; " . intval($startYear) . "&ndash;" . date('Y'); 
+	}
+} 
+?>
+
+<?php auto_copyright(); // Current year?>
+
+<?php auto_copyright(2010);  // 2010 - Current ?>
+        
+        <!--PHP pour récupérer année-->
+        
+        
+      <article>
+        <h3>Footer1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+      <article>
+        <h3>Footer2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </article>
+    </footer>
+  </div>
+  <div id="footerbar"><!-- Small footerbar at the bottom --></div>
+</div>
+</body>
+</html>
